@@ -1,0 +1,57 @@
+# Logs and runtime
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment and sensitive variables
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+
+# Dependencies
+node_modules/
+jspm_packages/
+web_modules/
+
+# Production and build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+.vuepress/dist/
+.serverless/
+.fusebox/
+.dynamodb/
+.cache/
+
+# OS-generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# IDE and editor settings
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary files & Agent workspace folders
+.gemini/
+.agents/
+*.tmp
+*.temp
